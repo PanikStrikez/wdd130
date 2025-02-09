@@ -24,7 +24,7 @@ body {
   background-color: #364125;
 }
 
-Header {
+header {
   background-color: #364125;
 }
 
@@ -54,6 +54,8 @@ footer {
 
 nav a {
   color: #000000;
+  text-align: center;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -76,12 +78,15 @@ h4 {
   color: #FFFFFF;
 }  
 .msg p {
-  color: #000000;
-}
 footer a {
+  font-size: 1.2em;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+footer a:hover {
   color: #FFFFFF;
 }
-footer a:hover {
   color: #FFFFFF;
 }
 
@@ -89,7 +94,7 @@ footer a:hover {
   width: 80px;
 }
 
-images/logo.png {
+.logo {
   width: 80px;
 }
 
@@ -107,4 +112,74 @@ footer a {
   font-size: 1.2em;
   color: #FFFFFF;
   text-decoration: underline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Rock+Salt&display=swap');
+
+
+body, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #364125;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-size: 22px;
+}
+
+
+.home-title, .msg h2 {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+
+#logo_link {
+  padding-top: 5px;
+}
+
+nav a {
+  padding: 35px;
+}
+
+.book, .join {
+  padding: 15px 30px;
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.icon {
+  padding-top: 10px;
+}
+
+.msg {
+  padding: 35px;
+  line-height: 1.5em;
+}
+
+.msg p {
+  padding-bottom: 15px;
+  font-size: 0.8em;
+}
+
+footer {
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+
+.card-img {
+  border: 10px solid #000000;
+}
+
+main section img {
+  box-sizing: border-box;
 }
