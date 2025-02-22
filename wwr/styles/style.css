@@ -22,6 +22,8 @@ main section {
 
 body {
   background-color: #364125;
+  font-family: "monsterat", sans-serif;
+  font-size: 22px;
 }
 
 header {
@@ -64,6 +66,8 @@ nav a:hover {
 
 .home-title {
   color: #FFFFFF;
+  font-family: "Emblema One", sans-serif;
+  font-size: 2em;
 }
 h4 {
   color: #000000;
@@ -76,8 +80,10 @@ h4 {
 }
 .msg h2 {
   color: #FFFFFF;
+  font-family: "Emblema One", sans-serif;
+  line-height: 1.5em;
 }  
-.msg p {
+
 footer a {
   font-size: 1.2em;
   color: #FFFFFF;
@@ -87,14 +93,12 @@ footer a {
 footer a:hover {
   color: #FFFFFF;
 }
-  color: #FFFFFF;
-}
 
 .icon {
   width: 80px;
 }
 
-.logo {
+#logo {
   width: 80px;
 }
 
@@ -114,7 +118,7 @@ footer a {
   text-decoration: underline;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 body, h2 {
@@ -128,14 +132,6 @@ body {
   font-family: 'Raleway', Arial, sans-serif;
   font-size: 22px;
 }
-
-
-.home-title, .msg h2 {
-  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-  font-size: 2em;
-  margin-top: 10px;
-}
-
 
 #logo_link {
   padding-top: 5px;
@@ -164,6 +160,7 @@ nav a {
 .msg p {
   padding-bottom: 15px;
   font-size: 0.8em;
+
 }
 
 footer {
@@ -260,9 +257,8 @@ nav {
   grid-row: 5 / 8;
 }
 
-.msg {
-  grid-column: 6 / 10;
-  grid-row: 6 / 7;
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
 }
 
 footer {
@@ -291,6 +287,7 @@ footer {
   grid-column: 6 / 10;
   grid-row: 6 / 7;
   box-shadow: 5px 5px 10px #6f7364;
+  line-height: 1.5em;
 }
 
 .mountains {
